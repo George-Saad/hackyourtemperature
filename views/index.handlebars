@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Weather Data</title>
+  </head>
+  <body>
+    <section>
+      <div>
+        <h1>Simple Weather App</h1>
+        <form action="/weather" method="POST">
+          <input type="text" name="cityName" placeholder="Search for a city" autofocus>
+          <button type="submit">SUBMIT</button>
+        </form>
+        <p> {{ weatherText }} </p>
+      </div>
+    </section>
+  </body>
+</html>
